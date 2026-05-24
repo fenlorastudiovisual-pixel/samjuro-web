@@ -115,6 +115,15 @@ footer{background:#0d0a08;padding:36px 0 20px}
   .header-logo img{height:50px}
   .info-strip-inner{grid-template-columns:1fr 1fr}
 }
+
+/* ══ DARK MODE FIX (auto-detecta preferencia del navegador) ══ */
+@media (prefers-color-scheme: dark) {
+  header, .cat-nav, .mobile-nav {
+    background: #1a1a1a !important;
+    border-bottom-color: rgba(255,255,255,.08) !important;
+  }
+}
+
 </style>
 </head>
 <body>

@@ -305,6 +305,15 @@ footer a{color:rgba(255,255,255,.45);margin:0 10px}footer a:hover{color:#fff}
       .header-logo img{height:68px!important}
     }
 
+
+/* ══ DARK MODE FIX (auto-detecta preferencia del navegador) ══ */
+@media (prefers-color-scheme: dark) {
+  header, .cat-nav, .mobile-nav {
+    background: #1a1a1a !important;
+    border-bottom-color: rgba(255,255,255,.08) !important;
+  }
+}
+
 </style>
 </head>
 <body>
